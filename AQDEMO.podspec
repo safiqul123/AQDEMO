@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
 
   s.description  = "This is dynamic chat sdk you can implement dynamic form and chat also"
 
-  s.homepage     = "https://speak2safi@bitbucket.org/speak2safi/aqdemo.git"
+  s.homepage     = "https://github.com/safiqul123/AQDEMO.git"
   s.license      = "MIT"
-  s.author       = { "Safiqul" => "speak2safi@gmail.com" }
+  s.author       = { "Safiqul" => "safisna@gmail.com" }
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://speak2safi@bitbucket.org/speak2safi/aqdemo.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/safiqul123/AQDEMO.git", :tag => "1.0.0" }
 
    s.source_files = "AQDEMO/**/*"
    s.swift_version = "5.0"
