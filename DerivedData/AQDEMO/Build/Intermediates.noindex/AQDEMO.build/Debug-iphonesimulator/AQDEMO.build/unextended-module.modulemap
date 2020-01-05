@@ -1,0 +1,10 @@
+framework module AQDEMO {
+  umbrella header "AQDEMO.h"
+
+  export *
+  module * { export * }
+}
+
+module AQDEMO.__Swift {
+    exclude header "AQDEMO-Swift.h"
+}

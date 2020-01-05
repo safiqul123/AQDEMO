@@ -1,0 +1,11 @@
+framework module AQDEMO {
+  umbrella header "AQDEMO.h"
+
+  export *
+  module * { export * }
+}
+
+module AQDEMO.Swift {
+    header "AQDEMO-Swift.h"
+    requires objc
+}
